@@ -1,6 +1,6 @@
-myname="jake"
-
-for i in range(20):
+myname=input("what is your name?")
+myage=int(input("what is your age?"))
+for i in range(150):
     # print(i)
-    if i==14:
+    if i==myage:
         print("my name is",myname,"and my age is",i)
