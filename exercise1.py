@@ -1,8 +1,15 @@
+myage = None
 myname=input("what is your name?")
-myage=int(input("what is your age?"))
+
+while myage is None:
+    inputmyage=input("what is your age?")
+    try:
+        myage=int(inputmyage)
+    except ValueError:
+        print(inputmyage,"is not a digits, please enter digits only")
+
+
 for i in range(150):
     # print(i)
     if i==myage:
-        print("my name is",myname,"and my age is",i)
-     if type myage == str:
-        print (please enter a number)
+        print("Your name is",myname,"and Your age is",i)
