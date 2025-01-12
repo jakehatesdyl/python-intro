@@ -4,3 +4,6 @@ for i in range(150):
     # print(i)
     if i==myage:
         print("my name is",myname,"and my age is",i)
+        var = "a number"
+        isinstance(var,num)
+    True
